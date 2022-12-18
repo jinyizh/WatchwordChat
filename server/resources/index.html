@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watchword Chat - Create your passphrase and start talking!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="header">
+        Watchword Chat
+    </h1>
+
+    <div id="upDiv">
+        <p> Alias: <textarea id="usernameTA"></textarea>
+            Watchword: <textarea id="wordTA"></textarea>
+        </p>
+        <p><button id="createBtn">start!</button></p>
+    </div>
+
+    <div class="row">
+        <div id="columnLeft" style="background-color:#eed9d4;">
+            <p class="header"><b>Rules and announcement:</b></p>
+            <p>
+                Watchword Chat is a semi-anonymous online chatting website developed by Jinyi Zhou. Here you can chat
+                with users who enter the same passcode ("watchword") as you do.
+            </p>
+            <p>
+                You can choose any word that contains only lower case English alphabets as your watchword. Both your
+                alias and watchword shouldn't contain space. Also notice that you can only chat with others using basic
+                English letters and common punctuations.
+            </p>
+            <p>
+                To keep the chat interesting, you won't know the exact number of people who have said the same
+                watchword before you did so. However, they will be informed when you say their watchword. They will also
+                receive message when you close the website and go back to reality. However, you can always go back by
+                saying the same watchword to reconnect with them :)
+            </p>
+            <p>
+                Enter your alias and watchword and have fun here!
+            </p>
+            <p>
+                Jinyi Zhou
+            </p>
+        </div>
+        <div id="columnRight" style="background-color:#ffd9d4;">
+            <p class="header"><b>Chat starts here!</b></p>
+        </div>
+    </div>
+
+    <div id="downDiv">
+        <p> Message: <textarea id="messageTA"></textarea>
+        </p>
+        <p><button id="sendBtn">send</button></p>
+    </div>
+
+    <script
+    type="text/javascript"
+    src="src.js">
+    </script>
+</body>
+</html>

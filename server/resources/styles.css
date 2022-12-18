@@ -1,0 +1,60 @@
+#header {
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    font-family: "PT Serif", serif;
+}
+
+body {
+    background-color: #ddd9d4;
+}
+
+#upDiv {
+    border: 3px outset #bbb;
+    background-color: #eed9d4;
+    text-align: center;
+    font-family: "PT Serif", serif;
+}
+
+#downDiv {
+    display: flow-root;
+    border: 3px outset #bbb;
+    text-align: center;
+    font-family: "PT Serif", serif;
+}
+
+#messageTA {
+    width:250px;
+    padding: 3px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.row {
+    border: 3px outset #bbb;
+    display: flex;
+}
+
+#columnLeft {
+    flex: 25%;
+    height: 465px;
+    overflow-y: scroll;
+}
+  
+#columnRight {
+    flex: 75%;
+    height: 465px;
+    overflow-y: scroll;
+}
+
+.header {
+    color:#000000;
+    font-family: "PT Serif", serif;
+}
