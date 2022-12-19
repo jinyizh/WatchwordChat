@@ -55,7 +55,7 @@ function handleKeyPressCB(event) {
             ws.onmessage = handleMessageFromWsCB;
         } else if (wsOpen) {
             ws.send(`${username} ${word} ${message}`);
-            messageTA.select();
+            messageTA.value = ""; // clear the text
         }
     }
 }

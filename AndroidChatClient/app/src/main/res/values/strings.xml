@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidChatClient</string>
+    <string name="room_name">Watchword Chat</string>
+    <string name="user_name">Alias:</string>
+    <string name="room_id">Watchword:</string>
+    <string name="button_name">Start chatting</string>
+    <string name="send_button">Send</string>
+    <string name="leave_button">Leave</string>
+    <string name="hint">Start chatting here!</string>
+</resources>

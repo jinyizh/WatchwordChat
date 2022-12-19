@@ -16,10 +16,10 @@ public class MyHttpResponse {
         String message = decodeMessage(in); // message from client
         System.out.println("the message sent from client is: " + message);
 
-        // list of messages from client:
-        // for joining a room: join username roomName
-        // for sending a message: username roomName message
-        // for leaving a room: leave username roomName
+        // expected messages from client:
+        // for creating / joining a word: join username watchword
+        // for sending a message: username watchword message
+        // for leaving a room: leave username watchword
 
         // list of message types client accepts:
         // {"type": "join", "watchword": "word", "user": "user"}
