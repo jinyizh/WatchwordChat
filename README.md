@@ -9,7 +9,6 @@ Simply run ```server/src/Main``` and:
 ### Webpage application
 ![webpage](./images/webpage.png)
 ### Android application
-![androidLogin](./images/android_login.png)
 ![androidChat](./images/android_chat.png)
 ## Credits
 Developed by Jinyi Zhou. The idea is mainly based on a homework assignment in the CS6011 Computer Programming class of the Master of Software Development program at the University of Utah.
